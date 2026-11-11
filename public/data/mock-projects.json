@@ -1,0 +1,29 @@
+{
+  "_readme": "Hand-written mock source. Field names are deliberately NOT the common shape; src/data/adapters/mockJson.js translates them. 'updated' is relative to now (e.g. '3h', '2d') so the mock never goes stale on its own. Stages: 'in progress', 'shipped', 'needs feedback', 'not started', 'on hold'.",
+  "projects": [
+    { "ref": "hal-01", "client": "Halcyon Coffee",   "name": "Loyalty app — home screen",    "stage": "in progress",    "percent": 60,  "updated": "40m", "url": "https://example.com/halcyon/loyalty-home" },
+    { "ref": "hal-02", "client": "Halcyon Coffee",   "name": "Autumn menu campaign",         "stage": "needs feedback", "percent": 85,  "updated": "1d",  "url": "https://example.com/halcyon/autumn-campaign" },
+    { "ref": "hal-03", "client": "Halcyon Coffee",   "name": "Cup sleeve illustrations",     "stage": "shipped",        "percent": 100, "updated": "2d",  "url": "https://example.com/halcyon/cup-sleeves" },
+    { "ref": "hal-04", "client": "Halcyon Coffee",   "name": "Franchise pitch deck",         "stage": "not started",    "percent": 0,   "updated": "3d",  "url": "https://example.com/halcyon/franchise-deck" },
+    { "ref": "hal-05", "client": "Halcyon Coffee",   "name": "Checkout flow",                "stage": "in progress",    "percent": 35,  "updated": "2h",  "url": "https://example.com/halcyon/checkout" },
+
+    { "ref": "nwb-01", "client": "Northwind Bikes",  "name": "Product page redesign",        "stage": "in progress",    "percent": 45,  "updated": "1h",  "url": "https://example.com/northwind/product-page" },
+    { "ref": "nwb-02", "client": "Northwind Bikes",  "name": "Spring launch video storyboard","stage": "on hold",       "percent": 20,  "updated": "19d", "url": "https://example.com/northwind/storyboard" },
+    { "ref": "nwb-03", "client": "Northwind Bikes",  "name": "Dealer onboarding deck",       "stage": "needs feedback", "percent": 90,  "updated": "5h",  "url": "https://example.com/northwind/dealer-deck" },
+    { "ref": "nwb-04", "client": "Northwind Bikes",  "name": "Size-guide screen",            "stage": "not started",    "percent": 10,  "updated": "4d",  "url": "https://example.com/northwind/size-guide" },
+
+    { "ref": "mfl-01", "client": "Marlow & Finch",   "name": "Brand refresh — logo lockups", "stage": "shipped",        "percent": 100, "updated": "6h",  "url": "https://example.com/marlow/logo" },
+    { "ref": "mfl-02", "client": "Marlow & Finch",   "name": "Website — team page",          "stage": "in progress",    "percent": 70,  "updated": "3h",  "url": "https://example.com/marlow/team-page" },
+    { "ref": "mfl-03", "client": "Marlow & Finch",   "name": "Annual report layout",         "stage": "not started",    "percent": 25,  "updated": "11d", "url": "https://example.com/marlow/annual-report" },
+    { "ref": "mfl-04", "client": "Marlow & Finch",   "name": "Letterhead & stationery",      "stage": "needs feedback", "percent": 95,  "updated": "2d",  "url": "https://example.com/marlow/stationery" },
+
+    { "ref": "kth-01", "client": "Kiteline Health", "name": "Patient portal dashboard",     "stage": "in progress",    "percent": 55,  "updated": "25m", "url": "https://example.com/kiteline/dashboard" },
+    { "ref": "kth-02", "client": "Kiteline Health", "name": "Vaccine drive social campaign","stage": "shipped",        "percent": 100, "updated": "1d",  "url": "https://example.com/kiteline/vaccine-campaign" },
+    { "ref": "kth-03", "client": "Kiteline Health", "name": "Appointment booking screens",  "stage": "not started",    "percent": 5,   "updated": "2d",  "url": "https://example.com/kiteline/booking" },
+    { "ref": "kth-04", "client": "Kiteline Health", "name": "Investor update deck",         "stage": "on hold",        "percent": 40,  "updated": "26d", "url": "https://example.com/kiteline/investor-deck" },
+
+    { "ref": "oso-01", "client": "Oso Outdoor",     "name": "Trail map illustrations",      "stage": "needs feedback", "percent": 75,  "updated": "8h",  "url": "https://example.com/oso/trail-maps" },
+    { "ref": "oso-02", "client": "Oso Outdoor",     "name": "Winter catalogue",             "stage": "not started",    "percent": 15,  "updated": "1d",  "url": "https://example.com/oso/winter-catalogue" },
+    { "ref": "oso-03", "client": "Oso Outdoor",     "name": "Newsletter template",          "stage": "in progress",    "percent": 30,  "updated": "14d", "url": "https://example.com/oso/newsletter" }
+  ]
+}
